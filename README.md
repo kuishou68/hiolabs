@@ -13,7 +13,7 @@
 
   管理端：GitHub: https://github.com/iamdarcy/hioshop-admin
 
-![image-20210509222627644](D:\Code\Vuejs\hiolabs\images\image-20210509222627644.png)
+![image-20210509222627644](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509222627644.png)
 
 - 安装顺序：  
 
@@ -29,23 +29,23 @@
 
   注意数据库版本一定要是 **MySql 5.7**  一定要是 **MySql 5.7**   一定要是 **MySql 5.7**
 
-![image-20210509223741438](D:\Code\Vuejs\hiolabs\images\image-20210509223741438.png)
+![image-20210509223741438](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509223741438.png)
 
 - 更改数据库配置  src/common/config/database.js
 
-![image-20210509224232810](D:\Code\Vuejs\hiolabs\images\image-20210509224232810.png)
+![image-20210509224232810](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509224232810.png)
 
 - 填写微信配置和其他设置，打开 src/common/config/config.js文件，如果微信支付、oss服务什么的你都还没申请，都可以先不填写，但是微信的appid 和secret 是必填的。
 
-  ![image-20210509231024786](D:\Code\Vuejs\hiolabs\images\image-20210509231024786.png)
+  ![image-20210509231024786](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509231024786.png)
 
 - 微信的appid 和secret 在微信小程序官网登录以后，在控制台页面的开发->开发设置->开发者ID中
 
-  ![image-20210509231238114](D:\Code\Vuejs\hiolabs\images\image-20210509231238114.png)
+  ![image-20210509231238114](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509231238114.png)
 
 - 填写七牛云地址  src/common/config/config.js
 
-  ![image-20210509224442923](D:\Code\Vuejs\hiolabs\images\image-20210509224442923.png)
+  ![image-20210509224442923](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509224442923.png)
 
   
 
@@ -55,11 +55,11 @@
 
   没报错的话，会在控制台显示200 
 
-![image-20210509224618728](D:\Code\Vuejs\hiolabs\images\image-20210509224618728.png)
+![image-20210509224618728](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509224618728.png)
 
 ​	浏览器测试   http://127.0.0.1:8360/  
 
-![image-20210509224551447](D:\Code\Vuejs\hiolabs\images\image-20210509224551447.png)
+![image-20210509224551447](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509224551447.png)
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -67,11 +67,11 @@
 
 - 打开微信开发者工具
 
-![image-20210509230236475](D:\Code\Vuejs\hiolabs\images\image-20210509230236475.png)
+![image-20210509230236475](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509230236475.png)
 
 - 默认API改成本地地址
 
-  ![image-20210509224825777](D:\Code\Vuejs\hiolabs\images\image-20210509224825777.png)
+  ![image-20210509224825777](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509224825777.png)
 
 ​	小程序预览显示数据表示数据库连接成功
 
@@ -83,21 +83,21 @@
 
 - 安装依赖后启动后会出现一个问题，这个问题是Element-ui自带的。
 
-<img width="600" src="D:\Code\Vuejs\hiolabs\images\error.jpg"/>
+<img width="600" src="https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/error.jpg"/>
 
 - 解决方法：在node_modules 搜索:  div class="el-form-item__label-wrap" 
 
-![image-20210505000052259](D:\Code\Vuejs\hiolabs\images\image-20210505000052259.png)
+![image-20210505000052259](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210505000052259.png)
 
 - ​	在语句中加上单引号就可以了
 
-<img width="600" src="D:\Code\Vuejs\hiolabs\images\before.jpg"/>
+![在这里插入图片描述](https://img-blog.csdnimg.cn/img_convert/877483914dbf680e7912f2df8691e705.png#pic_center)
 
-<img width="600" src="D:\Code\Vuejs\hiolabs\images\after.jpg"/>
+![在这里插入图片描述](https://img-blog.csdnimg.cn/img_convert/580d4d51547f108d37646a42f9a4b58d.png#pic_center)
 
 - 启动 ``npm run dev``
 
-![image-20210509225447399](D:\Code\Vuejs\hiolabs\images\image-20210509225447399.png)
+![image-20210509225447399](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509225447399.png)
 
 - build 打包成静态文件  ``npm run build:web``
 
@@ -105,7 +105,7 @@
 
   用户名：hiolabs，密码：hiolabs
 
-![image-20210509225845170](D:\Code\Vuejs\hiolabs\images\image-20210509225845170.png)
+![image-20210509225845170](https://raw.githubusercontent.com/kuishou68/hiolabs/main/images/image-20210509225845170.png)
 
 
 
